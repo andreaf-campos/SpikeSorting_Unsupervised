@@ -95,8 +95,8 @@ The **functions module** is written in **Cython** (`functions.pyx`) for optimize
    git clone https://github.com/andreaf-campos/SpikeSorting_Unsupervised.git
    cd SpikeSorting_Unsupervised
    ```
-3. If using the Jupyter Notebook (**recommended**), Cython will **auto-compile on import**.
-4. If manual compilation is needed, run beforehand:
+3. If using the Jupyter Notebook (**recommended**), Cython will **auto-compile on import** the `functions.pyx` module of functions.
+4. If manual compilation of `functions.pyx` is needed, run beforehand:
    ```sh
    python setup.py build_ext --inplace
    ```
